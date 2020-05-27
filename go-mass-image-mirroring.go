@@ -19,7 +19,7 @@ func main() {
 	var sourcePath string
 	var savePath string
 
-	flag.StringVar(&sourcePath, "path", "", "-path /path/to/folder/that/contain/images")
+	flag.StringVar(&sourcePath, "source", "", "-source /path/to/folder/that/contain/images")
 	flag.StringVar(&savePath, "save", "", "-save /path/to/save/mirror/result")
 
 	flag.Parse()
